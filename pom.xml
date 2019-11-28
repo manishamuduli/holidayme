@@ -1,31 +1,863 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>net.systemshub</groupId>
-  <artifactId>redbus</artifactId>
-  <packaging>war</packaging>
-  <version>1.0</version>
-  <name>test</name>
-  <url>http://maven.apache.org</url>
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-<build>
- <plugins>
- <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-         <artifactId>maven-war-plugin</artifactId>
- <configuration>
-         <outputDirectory>/opt/test</outputDirectory>
-  </configuration>
-  </plugin>
-  </plugins>
-  
-  </build>
 
-</project>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel='icon' href="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/images/favicon_en.ico" type='image/x-icon'>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="referrer" content="always">
+    <title>Book Holiday Packages | Umrah Packages with Visa</title>
+            <!–– hme alt-url start ––>
+<link rel="canonical" href="https://www.holidayme.com/home/en-ww"/>
+<link rel="alternate" hreflang="en" href="https://www.holidayme.com/home/en-ww"/>
+<link rel="alternate" hreflang="ar" href="https://www.holidayme.com/home/ar-ww"/>
+<link rel="alternate" hreflang="en-eu" href="https://www.holidayme.com/home/en-eu"/>
+<link rel="alternate" hreflang="ar-eu" href="https://www.holidayme.com/home/ar-eu"/>
+<link rel="alternate" hreflang="en-my" href="https://www.holidayme.com/home/en-my"/>
+<link rel="alternate" hreflang="ar-my" href="https://www.holidayme.com/home/ar-my"/>
+<link rel="alternate" hreflang="en-qa" href="https://www.holidayme.com/home/en-qa"/>
+<link rel="alternate" hreflang="ar-qa" href="https://www.holidayme.com/home/ar-qa"/>
+<link rel="alternate" hreflang="en-bh" href="https://www.holidayme.com/home/en-bh"/>
+<link rel="alternate" hreflang="ar-bh" href="https://www.holidayme.com/home/ar-bh"/>
+<link rel="alternate" hreflang="en-om" href="https://www.holidayme.com/home/en-om"/>
+<link rel="alternate" hreflang="ar-om" href="https://www.holidayme.com/home/ar-om"/>
+<link rel="alternate" hreflang="en-kw" href="https://www.holidayme.com/home/en-kw"/>
+<link rel="alternate" hreflang="ar-kw" href="https://www.holidayme.com/home/ar-kw"/>
+<link rel="alternate" hreflang="ar-sa" href="https://www.holidayme.com/home/ar-sa"/>
+<link rel="alternate" hreflang="en-sa" href="https://www.holidayme.com/home/en-sa"/>
+<link rel="alternate" hreflang="en-ae" href="https://www.holidayme.com/home/en-ae"/>
+<link rel="alternate" hreflang="ar-ae" href="https://www.holidayme.com/home/ar-ae"/>
+<!–– hme alt-url end ––>
+
+    
+        <script language="JavaScript" type="text/javascript" src="https://d1mngrp21dynk6.cloudfront.net/Omniture/English/VisitorAPI.js"></script>
+        <script language="JavaScript" type="text/javascript" src="https://d1mngrp21dynk6.cloudfront.net/Omniture/English/AppMeasurement.js"></script>
+    
+        <link href="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/css/bootstrap.min.css?v=201911271615" rel="stylesheet" />
+    <link href="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/css/header_footer.min.css?v=201911271615" rel="stylesheet" />
+
+    <link async href="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/css/normalize.css?v=201911271615" rel="stylesheet" />
+    <link href="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/css/jquery-ui.min.css?v=201911271615" rel="stylesheet" />
+    <link href="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/css/hme-icon.min.css?v=201911271615" rel="stylesheet" />
+    <!--[if lt IE 9]>
+            <script async src="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/js/html5shiv.min.js"></script>
+            <script async src="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/js/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/js/jquery.min.js?v=201911271615"></script>
+    <script type="text/javascript" src="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/js/jquery-ui.min.js?v=201911271615"></script>
+    <script type="text/javascript" src="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/js/bootstrap.min.js?v=201911271615"></script>
+
+    <script type="text/javascript" src="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/js/jquery.lazy.min.js?v=201911271615"></script>
+    <script async src="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/js/modernizr.min.js"></script>
+    
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="holidays, holiday packages, holiday destinations, honeymoon packages, cheap holiday packages, luxury holidays, vacation packages" />
+    <meta name="description" content="Compare and customize holiday packages, vacations and get the best deals. See user reviews and book your international tour now." />
+    <meta property="og:title" content="Book Personalised Holiday packages to more than 200 countries |Book Luxury and Budget Umrah packages with Visa | HolidayMe.com" />
+    <meta property="og:description" content="Choose from hundreds of curated itineraries created by experts for worldwide destinations and further personalize it according to your preferences" />
+    <meta property="og:image" content="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/images/holidayme_logo_en.png" />
+
+    
+    <script>
+            dataLayer = [{
+                'GT-Page-Category': 'Homepage',
+                'GT-Currency': 'USD',
+                'GT-Language': 'en',
+                'GT-Domain': 'ww'
+            }];
+    </script>
+
+
+    
+    <link href="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/css/offer_card.min.css?v=201911271615" rel="stylesheet" />
+
+    <script async>
+                (function (w, d, s, l, i) {
+                    w[l] = w[l] || []; w[l].push({
+                        'gtm.start':
+                            new Date().getTime(), event: 'gtm.js'
+                    }); var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                            '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-MWNQNS4');
+        </script>
+</head>
+<body>
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MWNQNS4"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager -->
+    <div class="clear"></div>
+    <!--xheader start-->
+    <!–– hme header start ––>
+<script src="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/js/global.js?v=201911271615" type="text/javascript"></script>
+<header>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" id="openNav" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar for-animation one"></span> <span class="icon-bar for-animation two"></span> <span class="icon-bar for-animation three"></span> </button>
+                <a class="navbar-brand" href="https://www.holidayme.com/home/en-ww" title="Holidayme"> <img src="https://d1e2uvyjorgoaf.cloudfront.net/HolidayMelogo.png"> </a>
+                <a href="javascript:history.go(-1)" class="visible-xs mobile-back-arrow hideArrow"> <i class="holidayme hme-left"></i></a>
+            </div>
+            <div id="navbar-wrap" class="navbar-collapse collapse" style="display: none;">
+                <ul class="nav navbar-nav explore-link-wrap">
+                    <li class="dropdown mainLob">
+                        <a href="javascript:;" id="mainLob" class="dropdown-toggle explore" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="earth"></span> <span class="holidayme hme-arrow-down"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-center navigation">
+                            <li class="mnuHoliday {{website_lob_holiday_tab}}"><a href="https://www.holidayme.com/holiday/en-ww">Holidays</a></li>
+                            <li class="mnuHotel {{website_lob_hotel_tab}}"><a href="https://www.holidayme.com/hotel/en-ww">Hotels</a></li>
+                            <li class="mnuFlight {{website_lob_flight_tab}}"><a href="https://www.holidayme.com/flight/en-ww">Flights</a></li>
+                            <!--<li class="mnuUmrah {{website_lob_umrah_tab}}"> <a href="https://www.umrahme.com/en-ww" target="_blank"> Umrah <span>with Visa</span></a></li>-->
+                            <li class="mnuUmrah {{website_lob_umrah_tab}}"> <a href="https://umrahme.com/" target="_blank"> Umrah <span>with Visa</span></a></li>
+                            <!--<li class="mnuExplore {{website_lob_explore_tab}}"><a href="https://www.holidayme.com/explore">Blog</a></li>-->
+                            <li class="mnuExplore {{website_lob_explore_tab}}"><a href="https://www.holidayme.com/explore/">Blog</a></li>
+                            <li class="mnuTravalGuide {{website_lob_travel-guide_tab}}"><a href="https://www.holidayme.com/travel-guide/en-ww">Travel Guide</a></li>
+                            <li class="mnuOffer {{website_lob_offer_tab}}"><a href="https://www.holidayme.com/offer/en-ww">Offers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="app_dwnld_block hidden-sm hidden-xs">
+                        <a target="_blank" href="https://holidayme.onelink.me/PJlR/84f27538" class="btn downloadLink">
+                            Download <strong>FREE APP!</strong>
+                        </a>
+                    </li>
+                    <li class="dropdown login" id="PartialLoginDiv">
+                        <div class="logged_in hidden">
+                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <span class="userwelcome">Hi! </span><span class="username">  </span>
+                                <span class="holidayme hme-arrow-down"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-center navigation">
+                                <li>
+                                    <a target="_blank" href="https://member.holidayme.com/">
+                                        <span class="holidayme hme-drop-down-list-right dropdown-arrow"></span>My Bookings
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://login.holidayme.com//logout?callbackUrl=https%3a%2f%2fwww.holidayme.com%2fhome%2fen-ww">
+                                        <span class="holidayme hme-drop-down-list-right dropdown-arrow"></span> Sign Out
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="logged_out active">
+                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"
+                               role="button" aria-haspopup="true" aria-expanded="false"> Login / Sign Up <span class="holidayme hme-arrow-down"></span></a>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <li>
+                                    <div class="sign-loader" style="display: none;"></div>
+                                    <iframe id="WebsiteLoginIFrame" data-src="https://login.holidayme.com/en?appToken=5b5be0115cdb4e5585f8f8d21cd29a5c&expiry=525600&header=0&callbackUrl=https%3a%2f%2fwww.holidayme.com%2fhome%2fen-ww" src="about:blank"></iframe>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="dropdown currency">
+                        <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> USD <span class="holidayme hme-arrow-down"></span> </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <div class="col-xs-12 pre-shown">
+                                <div class="search-currency input-group">
+                                    <input type="text" class="form-control search-currency" placeholder="Search Currencies" />
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-default" type="submit"> <i class="holidayme hme-search-light"></i> </button>
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="currency-li show {{website_curr_aed_show}}" data-url="https://www.holidayme.com/home/en-ae" title="AED" data-code="U.A.E. Dirham"><i>AED</i> U.A.E. Dirham</li>
+                                    <li class="currency-li show {{website_curr_sar_show}}" data-url="https://www.holidayme.com/home/en-sa" title="SAR" data-code="Saudi Arabian Riyal"><i>SAR</i> Saudi Arabian Riyal</li>
+                                    <li class="currency-li show {{website_curr_usd_show}}" data-url="https://www.holidayme.com/home/en-ww" title="USD" data-code="U. S. Dollar"><i>USD</i> U. S. Dollar</li>
+                                    <li class="currency-li show {{website_curr_eur_show}}" data-url="https://www.holidayme.com/home/en-eu" title="EUR" data-code="Euro"><i>EUR</i> Euro</li>
+                                    <li class="currency-li show {{website_curr_myr_show}}" data-url="https://www.holidayme.com/home/en-my" title="MYR" data-code="Malaysian Ringgit"><i>MYR</i>  Malaysian Ringgit</li>
+                                    <li class="currency-li show {{website_curr_omr_show}}" data-url="https://www.holidayme.com/home/en-om" title="OMR" data-code="Omani rial"><i>OMR</i> Omani Rial</li>
+                                    <li class="currency-li show {{website_curr_bhd_show}}" data-url="https://www.holidayme.com/home/en-bh" title="BHD" data-code="Bahraini Dinar"><i>BHD</i>  Bahraini Dinar</li>
+                                    <li class="currency-li show {{website_curr_kwd_show}}" data-url="https://www.holidayme.com/home/en-kw" title="KWD" data-code="Kuwaiti Dinar"><i>KWD</i> Kuwaiti Dinar</li>
+                                    <li class="currency-li {{website_curr_ils_code}} {{website_curr_ils_show}}" data-url="{{website_curr_ils_url}}" title="ILS" data-code="Israeli Shekel"><i>ILS</i>Israeli Shekel</li>
+                                    <li class="currency-li {{website_curr_zar_code}} {{website_curr_zar_show}}" data-url="{{website_curr_zar_url}}" title="ZAR" data-code="South African Rand"><i>ZAR</i>South African Rand</li>
+                                    <li class="currency-li {{website_curr_bif_code}} {{website_curr_bif_show}}" data-url="{{website_curr_bif_url}}" title="BIF" data-code="Burundi Franc"><i>BIF</i>Burundi Franc</li>
+                                    <li class="currency-li {{website_curr_egp_code}} {{website_curr_egp_show}}" data-url="{{website_curr_egp_url}}" title="EGP" data-code="Egyptian Pound"><i>EGP</i>Egyptian Pound</li>
+                                    <li class="currency-li {{website_curr_nad_code}} {{website_curr_nad_show}}" data-url="{{website_curr_nad_url}}" title="NAD" data-code="Namibian Dollar"><i>NAD</i>Namibian Dollar</li>
+                                    <li class="currency-li show {{website_curr_qar_show}}" data-url="https://www.holidayme.com/home/en-qa" title="QAR" data-code="Qatari Riyal"><i>QAR</i>Qatari Riyal</li>
+                                    <li class="currency-li {{website_curr_aud_code}} {{website_curr_aud_show}}" data-url="{{website_curr_aud_url}}" title="AUD" data-code="Australian dollar"><i>AUD</i>Australian dollar</li>
+                                    <li class="currency-li {{website_curr_inr_code}} {{website_curr_inr_show}}" data-url="{{website_curr_inr_url}}" title="INR" data-code="Indian Rupee"><i>INR</i>Indian Rupee</li>
+                                    <li class="currency-li {{website_curr_krw_code}} {{website_curr_krw_show}}" data-url="{{website_curr_krw_url}}" title="KRW" data-code="Korean Won"><i>KRW</i>Korean Won</li>
+                                    <li class="currency-li {{website_curr_nzd_code}} {{website_curr_nzd_show}}" data-url="{{website_curr_nzd_url}}" title="NZD" data-code="NewZealand Dollar"><i>NZD</i>NewZealand Dollar</li>
+                                    <li class="currency-li {{website_curr_thb_code}} {{website_curr_thb_show}}" data-url="{{website_curr_thb_url}}" title="THB" data-code="Thai Baht"><i>THB</i>Thai Baht</li>
+                                    <li class="currency-li {{website_curr_hkd_code}} {{website_curr_hkd_show}}" data-url="{{website_curr_hkd_url}}" title="HKD" data-code="HongKong Dollar"><i>HKD</i>HongKong Dollar</li>
+                                    <li class="currency-li {{website_curr_jpy_code}} {{website_curr_jpy_show}}" data-url="{{website_curr_jpy_url}}" title="JPY" data-code="Japanese Yen"><i>JPY</i>Japanese Yen</li>
+                                    <li class="currency-li {{website_curr_kzt_code}} {{website_curr_kzt_show}}" data-url="{{website_curr_kzt_url}}" title="KZT" data-code="Kazakhstani Tenge"><i>KZT</i>Kazakhstani Tenge</li>
+                                    <li class="currency-li {{website_curr_rub_code}} {{website_curr_rub_show}}" data-url="{{website_curr_rub_url}}" title="RUB" data-code="Russian Ruble"><i>RUB</i>Russian Ruble</li>
+                                    <li class="currency-li {{website_curr_cad_code}} {{website_curr_cad_show}}" data-url="{{website_curr_cad_url}}" title="CAD" data-code="Canadian Dollar"><i>CAD</i>Canadian Dollar</li>
+                                    <li class="currency-li {{website_curr_idr_code}} {{website_curr_idr_show}}" data-url="{{website_curr_idr_url}}" title="IDR" data-code="Indonesian Rupiah"><i>IDR</i>Indonesian Rupiah</li>
+                                    <li class="currency-li {{website_curr_jod_code}} {{website_curr_jod_show}}" data-url="{{website_curr_jod_url}}" title="JOD" data-code="Jordanian Dinar"><i>JOD</i>Jordanian Dinar</li>
+                                    <li class="currency-li {{website_curr_sgd_code}} {{website_curr_sgd_show}}" data-url="{{website_curr_sgd_url}}" title="SGD" data-code="Singapore Dollar"><i>SGD</i>Singapore Dollar</li>
+                                    <li class="currency-li {{website_curr_twd_code}} {{website_curr_twd_show}}" data-url="{{website_curr_twd_url}}" title="TWD" data-code="Taiwan Dollar"><i>TWD</i>Taiwan Dollar </li>
+                                    <li class="currency-li {{website_curr_huf_code}} {{website_curr_huf_show}}" data-url="{{website_curr_huf_url}}" title="HUF" data-code="Hungarian Forint"><i>HUF</i>Hungarian Forint </li>
+                                    <li class="currency-li {{website_curr_pln_code}} {{website_curr_pln_show}}" data-url="{{website_curr_pln_url}}" title="PLN" data-code="Polish Zloty"><i>PLN</i>Polish Zloty </li>
+                                    <li class="currency-li {{website_curr_gbp_code}} {{website_curr_gbp_show}}" data-url="{{website_curr_gbp_url}}" title="GBP" data-code="Pound Sterling"><i>GBP</i>Pound Sterling </li>
+                                    <li class="currency-li {{website_curr_uah_code}} {{website_curr_uah_show}}" data-url="{{website_curr_uah_url}}" title="UAH" data-code="Ukraine Hryvnia"><i>UAH</i>Ukraine Hryvnia </li>
+                                    <li class="currency-li {{website_curr_nok_code}} {{website_curr_nok_show}}" data-url="{{website_curr_nok_url}}" title="NOK" data-code="Norwegian Krone"><i>NOK</i>Norwegian Krone </li>
+                                    <li class="currency-li {{website_curr_sek_code}} {{website_curr_sek_show}}" data-url="{{website_curr_sek_url}}" title="SEK" data-code="Swedish Krona"><i>SEK</i>Swedish Krona </li>
+                                    <li class="currency-li {{website_curr_chf_code}} {{website_curr_chf_show}}" data-url="{{website_curr_chf_url}}" title="CHF" data-code="Swiss Franc"><i>CHF</i>Swiss Franc </li>
+                                    <li class="currency-li {{website_curr_ars_code}} {{website_curr_ars_show}}" data-url="{{website_curr_ars_url}}" title="ARS" data-code="Argentine Peso"><i>ARS</i>Argentine Peso </li>
+                                    <li class="currency-li {{website_curr_clp_code}} {{website_curr_clp_show}}" data-url="{{website_curr_clp_url}}" title="CLP" data-code="Chilean Peso"><i>CLP</i>Chilean Peso </li>
+                                    <li class="currency-li {{website_curr_xcd_code}} {{website_curr_xcd_show}}" data-url="{{website_curr_xcd_url}}" title="XCD" data-code="East Caribbean Dollar"><i>XCD</i>East Caribbean Dollar </li>
+                                    <li class="currency-li {{website_curr_bmd_code}} {{website_curr_bmd_show}}" data-url="{{website_curr_bmd_url}}" title="BMD" data-code="Bermuda Dollar"><i>BMD</i>Bermuda Dollar </li>
+                                    <li class="currency-li {{website_curr_mxn_code}} {{website_curr_mxn_show}}" data-url="{{website_curr_mxn_url}}" title="MXN" data-code="Mexican Peso"><i>MXN</i>Mexican Peso </li>
+                                    <li class="currency-li {{website_curr_brl_code}} {{website_curr_brl_show}}" data-url="{{website_curr_brl_url}}" title="BRL" data-code="Brazilian Real"><i>BRL</i>Brazilian Real </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="change-lgn"><a rel="follow" href="https://www.holidayme.com/home/ar-ww" class="alternate-lang-code settings_name"><span class="arabic">العربية </span></a></li>
+                    <li class="visible-xs contact-info">
+                        <a class="{{website_phone_ae_show}}" href="tel:800454545"><strong>UAE Toll Free:</strong><span class="msgUAENumber-number">800454545</span></a>
+                        <a class="{{website_phone_sa_show}}" href="tel:920002963"><strong>KSA Toll Free:</strong><span class="lblKSANumber-number">920002963</span></a>
+                        <a class="{{website_phone_my_show}}" href="tel:1800818857"><strong>Malaysia:</strong><span class="msgUAENumber-number">1800818857</span></a>
+                        <a class="{{website_phone_ww_show}}" href="tel:+97142457300"><strong>Worldwide:</strong><span class="worldwide-number">+97142457300</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<placeholder>
+    <input id="WebsiteLogoutUrl" name="WebsiteLogoutUrl" type="hidden" value="https://login.holidayme.com//logout?callbackUrl=https%3a%2f%2fwww.holidayme.com%2fhome%2fen-ww">
+    <input id="WebsiteCurrencyCode" type="hidden" value="USD">
+    <input id="WebsiteMarketCode" type="hidden" value="ww">
+    <input id="WebsiteLanguageCode" type="hidden" value="en">
+    <input id="WebsiteCdnBasePath" type="hidden" value="https://d1mngrp21dynk6.cloudfront.net/">
+    <input id="WebsiteLobName" type="hidden" value="home">
+    <input id="WebsiteLobAjaxUrl" type="hidden" value="https://www.holidayme.com/home/en-ww/">
+    <input id="WebsiteJsVersion" type="hidden" value="201911271615">
+    <input id="WebsiteHomeUrl" type="hidden" value="https://www.holidayme.com/home/en-ww/">
+    <input id="WebsiteBookingHeader" type="hidden" value="False">
+</placeholder>
+<div class="contact-widget hidden-xs">
+    <div class="contact-head">
+        <a href="javascript:"><span class="worldwidenumbers">Contact us</span></a>
+    </div>
+    <ul class="worldwidenumbers">
+        <li class="{{website_phone_ae_show}}">UAE Toll Free: <span class="market_phone_number_ae">800454545</span></li>
+        <li class="{{website_phone_sa_show}}">KSA Toll Free: <span class="market_phone_number_sa">920002963</span></li>
+        <li class="{{website_phone_my_show}}">Malaysia: <span class="market_phone_number_my">1800818857</span></li>
+        <li class="{{website_phone_ww_show}}">Worldwide: <span class="market_phone_number_ww">+97142457300</span></li>
+    </ul>
+</div>
+<!–– hme header end http:0 render:3––>
+    <!--xheader end-->
+
+    <div style="display: none" id="loadbanner"></div>
+    <link href="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/css/search-widget.min.css?v=201911271615" rel="stylesheet" />
+<div class="breadcrums container hidden-xs" style="display: none">
+    <ol vocab="http://schema.org/" typeof="BreadcrumbList">
+        <li property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage" href="https://www.holidayme.com//home/en-ww/">
+                <span property="name">Home</span>
+            </a>
+            <meta property="position" content="1">
+        </li>
+        <li property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage" href="https://www.holidayme.com//holidays/en-ww/">
+                <span property="name">Holidays</span>
+            </a>
+            <meta property="position" content="2">
+        </li>
+    </ol>
+</div>
+<section>
+<div class="container-fluid banner-wrapper visible-xs old-searchbar">
+    <div class="banner-content">
+        <div class="col-xs-12 text-left" s><h3 class="banner-heading ">Plan your dream vacation<br /> with <span>holidayme!</span> </h3></div>
+        <div class="col-xs-6 text-center">
+            <div class="holiday-tab" onclick="window.location.href='https://www.holidayme.com/holiday/en-ww'">
+                <i class="holidayme hme-Holidays banner-icn"></i>
+                <h5>holidays</h5>
+            </div>
+        </div>
+        <div class="col-xs-6 text-center">
+            <div class="hotel-tab" onclick="window.location.href='https://www.holidayme.com/hotel/en-ww'">
+                <i class="holidayme hme-Hotels banner-icn"></i>
+                <h5>Hotels</h5>
+            </div>
+        </div>
+        <div class="col-xs-6 text-center">
+            <div class="flight-tab" onclick="window.location.href='https://www.holidayme.com/flight/en-ww'">
+                <i class="holidayme hme-flight-up banner-icn"></i>
+                <h5>Flights</h5>
+            </div>
+        </div>
+        <div class="col-xs-6 text-center">
+            <div class="umrah-tab" onclick="window.location.href='https://www.umrahme.com/en-ww'">
+                <i class="holidayme hme-umrah banner-icn"></i>
+                <h5>Umrah with Visa </h5>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="comman-search-warp">
+    <!--Search Widget Start-->
+    <div class="container-fluid search-widget-container">
+        <div class="container search-widget-wraper">
+
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="javascript:;"><i class="holidayme hme-Sea-Bench visible-sm visible-xs"></i>holidays</a></li>
+                <li><a href="https://www.holidayme.com/hotel/en-ww"><i class="holidayme hme-Hotel-Building visible-sm visible-xs"></i>Hotels</a></li>
+                <li><a href="https://www.holidayme.com/flight/en-ww"><i class="holidayme hme-Flight-up visible-sm visible-xs"></i>Flights</a></li>
+                <li><a target="_blank" href="https://www.umrahme.com/en-ww"><i class="umrah-icn visible-sm visible-xs"></i>Umrah <span class="hidden-sm hidden-xs">with Visa</span></a></li>
+            </ul>
+            <div class="tab-content">
+                <!--Holiday Tab Start-->
+                <div id="holiday" class="tab-pane fade in active">
+                    <p class="mob_lbl visible-xs">Search <span>Holiday Options</span> </p>
+                    <div class="media holiday">
+                        <div class="media-body">
+                            <div class="inputWithIcon holiday-autocomplete">
+                                <input type="text" id="holidayAutocomplete" class="inputText" placeholder="Enter Your Destination" required>
+                                <i class="holidayme hme-location" aria-hidden="true"></i>
+                                <div class="error-msg hidden">Please select city, location name</div> <!--/error-msg-->
+                            </div>
+                        </div> <!--/media-body-->
+                        <div class="media-right media-top">
+                            <button class="search-btn" type="button">Search <i class="holidayme hme-forword"></i></button>
+                        </div> <!--/media-right-->
+                    </div> <!--/media holiday-->
+                </div> <!--/holiday-->
+                <!--Holiday Tab End-->
+            </div> <!--/tab-content-->
+        </div> <!--/search-widget-wraper-->
+    </div> <!--/search-widget-container-->
+    <!--Search Widget End-->
+    <div class="page-overlay"></div> <!--page-overlay-->
+</div>    
+<div class="container-fluid courasal-wrapper">
+    <!--Carousel starts-->
+    <div class="container">
+        <div class="row">
+            <h3 class="couasel-heading"> Best-Selling Deals</h3>
+            <div class="clearfix"></div>
+            <div class="exclusively">
+                <div class="swiper-container ex" dir="">
+                    <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center swiper-slide-new" data-swiper-autoplay="3000">
+                                    <a href="https://www.holidayme.com/explore/deals/slash_price_UAE/?intid=BANN_PRICE&amp;" target="_blank" class="hoverchange">
+                                        <div class="offer_card">
+                                            <div class="offer_card_overlay"></div>
+                                            <img src="https://dnerfv0wr1syb.cloudfront.net/1569401083984.jpg" alt="" />
+                                            <div class="offer_card_txt">
+                                                <div class="row">
+                                                    <div class="col-xs-8">
+                                                        <div class="offer_info">
+                                                            <div class="offer_title">Sale of the Year!</div>
+                                                            <div class="offer_validity">
+                                                            </div>
+                                                        </div> <!--/offer_info-->
+                                                    </div> <!--/col-xs-8-->
+                                                    <div class="col-xs-4">
+                                                        <div class="coupon_info text-right">
+                                                        </div> <!--/coupon_info-->
+                                                    </div> <!--/col-xs-4-->
+                                                </div> <!--/row-->
+                                            </div> <!--/offer_card_txt-->
+                                        </div> <!--/offfer_card-->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide text-center swiper-slide-new" data-swiper-autoplay="3000">
+                                    <a href="https://www.holidayme.com/offer/en-ww/details?offerid=5dd6662fe323460002a90b59&amp;lob=1&amp;intid=BANN_WFS_PRE" target="_blank" class="hoverchange">
+                                        <div class="offer_card">
+                                            <div class="offer_card_overlay"></div>
+                                            <img src="https://dnerfv0wr1syb.cloudfront.net/1574690798460.jpg" alt="" />
+                                                <span class="app_only_sec">App Only Deals</span>
+                                            <div class="offer_card_txt">
+                                                <div class="row">
+                                                    <div class="col-xs-8">
+                                                        <div class="offer_info">
+                                                            <div class="offer_title">Price Drop Alert!</div>
+                                                            <div class="offer_validity">
+                                                            </div>
+                                                        </div> <!--/offer_info-->
+                                                    </div> <!--/col-xs-8-->
+                                                    <div class="col-xs-4">
+                                                        <div class="coupon_info text-right">
+                                                                <div class="code_txt">Use Code</div>
+                                                                <div class="coupon_code"><strong>WFS15</strong></div>
+                                                        </div> <!--/coupon_info-->
+                                                    </div> <!--/col-xs-4-->
+                                                </div> <!--/row-->
+                                            </div> <!--/offer_card_txt-->
+                                        </div> <!--/offfer_card-->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide text-center swiper-slide-new" data-swiper-autoplay="3000">
+                                    <a href="https://holidayme.com/holiday/en-ae/packages?destinationtype=2&amp;destinationid=8594&amp;destinationName=Georgia&amp;intid=BANN_GEO_EN&amp;" target="_blank" class="hoverchange">
+                                        <div class="offer_card">
+                                            <div class="offer_card_overlay"></div>
+                                            <img src="https://dnerfv0wr1syb.cloudfront.net/1559036215876.jpg" alt="" />
+                                            <div class="offer_card_txt">
+                                                <div class="row">
+                                                    <div class="col-xs-8">
+                                                        <div class="offer_info">
+                                                            <div class="offer_title">Everyone is here!</div>
+                                                            <div class="offer_validity">
+                                                            </div>
+                                                        </div> <!--/offer_info-->
+                                                    </div> <!--/col-xs-8-->
+                                                    <div class="col-xs-4">
+                                                        <div class="coupon_info text-right">
+                                                        </div> <!--/coupon_info-->
+                                                    </div> <!--/col-xs-4-->
+                                                </div> <!--/row-->
+                                            </div> <!--/offer_card_txt-->
+                                        </div> <!--/offfer_card-->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide text-center swiper-slide-new" data-swiper-autoplay="3000">
+                                    <a href="https://www.holidayme.com/explore/deals/kids_holidays?intid=BANN_KIDS&amp;" target="_blank" class="hoverchange">
+                                        <div class="offer_card">
+                                            <div class="offer_card_overlay"></div>
+                                            <img src="https://dnerfv0wr1syb.cloudfront.net/1569923937083.jpg" alt="" />
+                                            <div class="offer_card_txt">
+                                                <div class="row">
+                                                    <div class="col-xs-8">
+                                                        <div class="offer_info">
+                                                            <div class="offer_title">What Kids Want?</div>
+                                                            <div class="offer_validity">
+                                                            </div>
+                                                        </div> <!--/offer_info-->
+                                                    </div> <!--/col-xs-8-->
+                                                    <div class="col-xs-4">
+                                                        <div class="coupon_info text-right">
+                                                        </div> <!--/coupon_info-->
+                                                    </div> <!--/col-xs-4-->
+                                                </div> <!--/row-->
+                                            </div> <!--/offer_card_txt-->
+                                        </div> <!--/offfer_card-->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide text-center swiper-slide-new" data-swiper-autoplay="3000">
+                                    <a href="https://www.holidayme.com/explore/deals/newyear_holidays?intid=BANN_NYD_CRM_EN&amp;" target="_blank" class="hoverchange">
+                                        <div class="offer_card">
+                                            <div class="offer_card_overlay"></div>
+                                            <img src="https://dnerfv0wr1syb.cloudfront.net/1571655511427.jpg" alt="" />
+                                            <div class="offer_card_txt">
+                                                <div class="row">
+                                                    <div class="col-xs-8">
+                                                        <div class="offer_info">
+                                                            <div class="offer_title">Special Edition!</div>
+                                                            <div class="offer_validity">
+                                                            </div>
+                                                        </div> <!--/offer_info-->
+                                                    </div> <!--/col-xs-8-->
+                                                    <div class="col-xs-4">
+                                                        <div class="coupon_info text-right">
+                                                        </div> <!--/coupon_info-->
+                                                    </div> <!--/col-xs-4-->
+                                                </div> <!--/row-->
+                                            </div> <!--/offer_card_txt-->
+                                        </div> <!--/offfer_card-->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide text-center swiper-slide-new" data-swiper-autoplay="3000">
+                                    <a href="https://www.holidayme.com/explore/deals/winterholidaysale?intid=BANN_WINTER&amp;" target="_blank" class="hoverchange">
+                                        <div class="offer_card">
+                                            <div class="offer_card_overlay"></div>
+                                            <img src="https://dnerfv0wr1syb.cloudfront.net/1574081305747.jpg" alt="" />
+                                            <div class="offer_card_txt">
+                                                <div class="row">
+                                                    <div class="col-xs-8">
+                                                        <div class="offer_info">
+                                                            <div class="offer_title">Want a Break?</div>
+                                                            <div class="offer_validity">
+                                                                    <i class="holidayme hme-timer-clock"></i><h5>34 Days Remaining</h5>
+                                                            </div>
+                                                        </div> <!--/offer_info-->
+                                                    </div> <!--/col-xs-8-->
+                                                    <div class="col-xs-4">
+                                                        <div class="coupon_info text-right">
+                                                        </div> <!--/coupon_info-->
+                                                    </div> <!--/col-xs-4-->
+                                                </div> <!--/row-->
+                                            </div> <!--/offer_card_txt-->
+                                        </div> <!--/offfer_card-->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide text-center swiper-slide-new" data-swiper-autoplay="3000">
+                                    <a href="https://www.holidayme.com/explore/deals/Where_In_December?intid=BANN_DEC_2019&amp;" target="_blank" class="hoverchange">
+                                        <div class="offer_card">
+                                            <div class="offer_card_overlay"></div>
+                                            <img src="https://dnerfv0wr1syb.cloudfront.net/1574836470834.jpg" alt="" />
+                                            <div class="offer_card_txt">
+                                                <div class="row">
+                                                    <div class="col-xs-8">
+                                                        <div class="offer_info">
+                                                            <div class="offer_title">Remember this December</div>
+                                                            <div class="offer_validity">
+                                                            </div>
+                                                        </div> <!--/offer_info-->
+                                                    </div> <!--/col-xs-8-->
+                                                    <div class="col-xs-4">
+                                                        <div class="coupon_info text-right">
+                                                        </div> <!--/coupon_info-->
+                                                    </div> <!--/col-xs-4-->
+                                                </div> <!--/row-->
+                                            </div> <!--/offer_card_txt-->
+                                        </div> <!--/offfer_card-->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide text-center swiper-slide-new" data-swiper-autoplay="3000">
+                                    <a href="https://www.holidayme.com/explore/deals/Muslim_Friendly_Destinations?intid=CRM_M_LP&amp;" target="_blank" class="hoverchange">
+                                        <div class="offer_card">
+                                            <div class="offer_card_overlay"></div>
+                                            <img src="https://dnerfv0wr1syb.cloudfront.net/1554885285251.jpg" alt="" />
+                                            <div class="offer_card_txt">
+                                                <div class="row">
+                                                    <div class="col-xs-8">
+                                                        <div class="offer_info">
+                                                            <div class="offer_title">Muslim-friendly Countries!</div>
+                                                            <div class="offer_validity">
+                                                            </div>
+                                                        </div> <!--/offer_info-->
+                                                    </div> <!--/col-xs-8-->
+                                                    <div class="col-xs-4">
+                                                        <div class="coupon_info text-right">
+                                                        </div> <!--/coupon_info-->
+                                                    </div> <!--/col-xs-4-->
+                                                </div> <!--/row-->
+                                            </div> <!--/offer_card_txt-->
+                                        </div> <!--/offfer_card-->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide text-center swiper-slide-new" data-swiper-autoplay="3000">
+                                    <a href="https://www.holidayme.com/explore/deals/UAE-Best_Selling_UAE/?intid=BANN_BEST_EN&amp;" target="_blank" class="hoverchange">
+                                        <div class="offer_card">
+                                            <div class="offer_card_overlay"></div>
+                                            <img src="https://dnerfv0wr1syb.cloudfront.net/1565089919617.jpg" alt="" />
+                                            <div class="offer_card_txt">
+                                                <div class="row">
+                                                    <div class="col-xs-8">
+                                                        <div class="offer_info">
+                                                            <div class="offer_title">Better than the Rest!</div>
+                                                            <div class="offer_validity">
+                                                            </div>
+                                                        </div> <!--/offer_info-->
+                                                    </div> <!--/col-xs-8-->
+                                                    <div class="col-xs-4">
+                                                        <div class="coupon_info text-right">
+                                                        </div> <!--/coupon_info-->
+                                                    </div> <!--/col-xs-4-->
+                                                </div> <!--/row-->
+                                            </div> <!--/offer_card_txt-->
+                                        </div> <!--/offfer_card-->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide text-center swiper-slide-new" data-swiper-autoplay="3000">
+                                    <a href="https://www.holidayme.com/offer/en-ww/details?offerid=5c79fe6656cfa0000246d5ac&amp;lob=6&amp;intid=BANN_MEGAFLIGHT_CRM_AR" target="_blank" class="hoverchange">
+                                        <div class="offer_card">
+                                            <div class="offer_card_overlay"></div>
+                                            <img src="https://dnerfv0wr1syb.cloudfront.net/1569585253418.jpg" alt="" />
+                                            <div class="offer_card_txt">
+                                                <div class="row">
+                                                    <div class="col-xs-8">
+                                                        <div class="offer_info">
+                                                            <div class="offer_title">Huge Saving!</div>
+                                                            <div class="offer_validity">
+                                                                    <i class="holidayme hme-timer-clock"></i><h5>3 Days Remaining</h5>
+                                                            </div>
+                                                        </div> <!--/offer_info-->
+                                                    </div> <!--/col-xs-8-->
+                                                    <div class="col-xs-4">
+                                                        <div class="coupon_info text-right">
+                                                                <div class="code_txt">Use Code</div>
+                                                                <div class="coupon_code"><strong>FLY</strong></div>
+                                                        </div> <!--/coupon_info-->
+                                                    </div> <!--/col-xs-4-->
+                                                </div> <!--/row-->
+                                            </div> <!--/offer_card_txt-->
+                                        </div> <!--/offfer_card-->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide text-center swiper-slide-new" data-swiper-autoplay="3000">
+                                    <a href="https://holidayme.com/holiday/en-ww/packages?destinationtype=2&amp;destinationid=2093&amp;destinationName=Thailand&amp;destinationType=2&amp;destinationId=2093&amp;intid=BANN_THA_WOW&amp;" target="_blank" class="hoverchange">
+                                        <div class="offer_card">
+                                            <div class="offer_card_overlay"></div>
+                                            <img src="https://dnerfv0wr1syb.cloudfront.net/1548932369383.jpg" alt="" />
+                                            <div class="offer_card_txt">
+                                                <div class="row">
+                                                    <div class="col-xs-8">
+                                                        <div class="offer_info">
+                                                            <div class="offer_title">Stunning Trip</div>
+                                                            <div class="offer_validity">
+                                                            </div>
+                                                        </div> <!--/offer_info-->
+                                                    </div> <!--/col-xs-8-->
+                                                    <div class="col-xs-4">
+                                                        <div class="coupon_info text-right">
+                                                        </div> <!--/coupon_info-->
+                                                    </div> <!--/col-xs-4-->
+                                                </div> <!--/row-->
+                                            </div> <!--/offer_card_txt-->
+                                        </div> <!--/offfer_card-->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide text-center swiper-slide-new" data-swiper-autoplay="3000">
+                                    <a href="https://www.holidayme.com/explore/deals/easy-payment-plan/?intid=BANN_CRM_EMI&amp;" target="_blank" class="hoverchange">
+                                        <div class="offer_card">
+                                            <div class="offer_card_overlay"></div>
+                                            <img src="https://dnerfv0wr1syb.cloudfront.net/1548838387018.jpg" alt="" />
+                                            <div class="offer_card_txt">
+                                                <div class="row">
+                                                    <div class="col-xs-8">
+                                                        <div class="offer_info">
+                                                            <div class="offer_title">Travel Now, Pay Later!</div>
+                                                            <div class="offer_validity">
+                                                            </div>
+                                                        </div> <!--/offer_info-->
+                                                    </div> <!--/col-xs-8-->
+                                                    <div class="col-xs-4">
+                                                        <div class="coupon_info text-right">
+                                                        </div> <!--/coupon_info-->
+                                                    </div> <!--/col-xs-4-->
+                                                </div> <!--/row-->
+                                            </div> <!--/offer_card_txt-->
+                                        </div> <!--/offfer_card-->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide text-center swiper-slide-new" data-swiper-autoplay="3000">
+                                    <a href="https://holidayme.com/offer/en-ww?intid=BANN_OFFERS_EN&amp;" target="_blank" class="hoverchange">
+                                        <div class="offer_card">
+                                            <div class="offer_card_overlay"></div>
+                                            <img src="https://dnerfv0wr1syb.cloudfront.net/1548852667210.jpg" alt="" />
+                                            <div class="offer_card_txt">
+                                                <div class="row">
+                                                    <div class="col-xs-8">
+                                                        <div class="offer_info">
+                                                            <div class="offer_title">Crazy Discounts!</div>
+                                                            <div class="offer_validity">
+                                                            </div>
+                                                        </div> <!--/offer_info-->
+                                                    </div> <!--/col-xs-8-->
+                                                    <div class="col-xs-4">
+                                                        <div class="coupon_info text-right">
+                                                        </div> <!--/coupon_info-->
+                                                    </div> <!--/col-xs-4-->
+                                                </div> <!--/row-->
+                                            </div> <!--/offer_card_txt-->
+                                        </div> <!--/offfer_card-->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide text-center swiper-slide-new" data-swiper-autoplay="3000">
+                                    <a href="https://www.holidayme.com/explore/deals/Family_Holiday?intid=BANN_FAMILY_CRM&amp;" target="_blank" class="hoverchange">
+                                        <div class="offer_card">
+                                            <div class="offer_card_overlay"></div>
+                                            <img src="https://dnerfv0wr1syb.cloudfront.net/1551939049331.jpg" alt="" />
+                                            <div class="offer_card_txt">
+                                                <div class="row">
+                                                    <div class="col-xs-8">
+                                                        <div class="offer_info">
+                                                            <div class="offer_title">Family Time!</div>
+                                                            <div class="offer_validity">
+                                                            </div>
+                                                        </div> <!--/offer_info-->
+                                                    </div> <!--/col-xs-8-->
+                                                    <div class="col-xs-4">
+                                                        <div class="coupon_info text-right">
+                                                        </div> <!--/coupon_info-->
+                                                    </div> <!--/col-xs-4-->
+                                                </div> <!--/row-->
+                                            </div> <!--/offer_card_txt-->
+                                        </div> <!--/offfer_card-->
+                                    </a>
+                                </div>
+                    </div>
+                    <!-- Add Arrows -->
+                    <!-- Add Pagination -->
+                </div>
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next arrows hme-right-light holidayme next hidden-xs"></div>
+                <div class="swiper-button-prev arrows hme-left holidayme pre hidden-xs"></div>
+            </div>
+        </div>
+    </div>
+    <!--Carousel ends-->
+</div>
+
+
+<div class="container-fluid gallery">
+    <h3 class="heading text-center"> #Trending<span>at</span>holidayme </h3>
+    <p class="sub-heading text-center">Tailor-made holidays to the hottest destinations</p>
+    <div class="row">
+        <div class="container">
+            <div class="swiper-container trending-holiday-destination">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="https://www.holidayme.com/holiday/en-ww/georgia-tour-packages-CO8594?intid=homegrid8594">
+                            <figure class="lazy" data-src="https://d1mngrp21dynk6.cloudfront.net/holidays/images/packages/shutterstock_211924576-636523838663153983.jpg">
+                                <div class="caption">
+                                    <label>Georgia</label>
+                                    <span></span>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://www.holidayme.com/holiday/en-ww/seychelles-tour-packages-CO9262?intid=homegrid9262">
+                            <figure class="lazy" data-src="https://d1mngrp21dynk6.cloudfront.net/holidays/images/packages/3-636530033099513492.jpg">
+                                <div class="caption">
+                                    <label>Seychelles</label>
+                                    <span> </span>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://www.holidayme.com/holiday/en-ww/switzerland-tour-packages-CO2087?intid=homegrid2087">
+                                <figure class="lazy" data-src="https://d1mngrp21dynk6.cloudfront.net/holidays/images/packages/shutterstock_511722901-636506591656399863.jpg">
+                                    <div class="caption">
+                                        <label>Switzerland</label>
+                                        <span> </span>
+                                    </div>
+                                </figure>
+                            </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://www.holidayme.com/holiday/en-ww/maldives-tour-packages-CO2451?intid=homegrid2451">
+                                <figure class="lazy" data-src="https://d1mngrp21dynk6.cloudfront.net/holidays/images/packages/shutterstock_379998466-636445276973305527.jpg">
+                                    <div class="caption">
+                                        <label>Maldives</label>
+                                        <span> </span>
+                                    </div>
+                                </figure>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    <!--Why Book With Holidayme Section Start-->
+<section class="why_book_hme">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 hidden-sm">
+                <div class="book_hme_img">
+                    <a>
+                        <img class="index_page_img" src="https://d1mngrp21dynk6.cloudfront.net/home/images/index_page_img.jpg">
+                    </a>
+                    <a href="https://www.holidayme.com/explore/UAE-Best_Selling_UAE/?intid=CRM_BESTSELLING_MAIN_EN" target="_blank">
+                        <img class="holiday_page_img" src="https://d1mngrp21dynk6.cloudfront.net/home/images/holiday_page_image.jpg">
+                    </a>
+                    <a href="https://www.holidayme.com/explore/Happy_Hotel_Stay/?intid=CRM_HOTEL_MAIN_EN" target="_blank">
+                        <img class="hotel_page_img" src="https://d1mngrp21dynk6.cloudfront.net/home/images/hotel_page_img.jpg">
+                    </a>
+                    <div class="explore_hotels">
+                        <h3>Explore Top <span>Hotels</span></h3>
+                        <a href="https://www.holidayme.com/hotel/en-ww" target="_blank">View Hotels</a>
+                    </div> <!--/explore_hotels-->
+                </div> <!--/book_hme_img-->
+            </div> <!--/col-sm-5-->
+            <div class="col-md-7">
+                <h4 class="hme_page_title">Why Book With Holidayme?</h4>
+                <p class="trustpilot_rating">4.4 rating on TrustPilot and 1.4 million&#x2B; happy customers</p>
+                <div class="hme_quality_sec">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="hme_quality_block">
+                                <h5>Customizable holidays</h5>
+                                <p>Plan your travel the way YOU want!</p>
+                            </div> <!--/hme_quality_block-->
+                        </div> <!--/col-sm-6-->
+                        <div class="col-sm-6">
+                            <div class="hme_quality_block">
+                                <h5>Trustworthy travel partner</h5>
+                                <p>Our TrustPilot score stands at an impressive 4.4!</p>
+</div> <!--/hme_quality_block-->
+                        </div> <!--/col-sm-6-->
+                        <div class="col-sm-6">
+                            <div class="hme_quality_block">
+                                <h5>Transparent pricing</h5>
+                                <p>
+                                    We guarantee best prices for flights,&#xD;&#xA;                                    hotels &amp; holidays – what you see is&#xD;&#xA;                                    what you get!
+                                </p>
+                            </div> <!--/hme_quality_block-->
+                        </div> <!--/col-sm-6-->
+                        <div class="col-sm-6">
+                            <div class="hme_quality_block">
+                                <h5>Easy payment options</h5>
+                                <p>
+                                    Visa, Mastercard, AL Ansari Exchange,&#xD;&#xA;                                    Sadad, and more such payment&#xD;&#xA;                                    options that make your booking&#xD;&#xA;                                    procedure a breeze!
+                                </p>
+                            </div> <!--/hme_quality_block-->
+                        </div> <!--/col-sm-6-->
+                    </div> <!--/row-->
+                </div> <!--/hme_quality_sec-->
+                <div class="reach_us_sec">
+                    <h5 class="reach_us_title">Reach us on</h5>
+                    <div class="hme_call_center">
+                        <a data-num="tel:800454545" href="javascript:void(0);">
+                            <strong>UAE Toll Free: </strong><span>800454545</span>
+                        </a>
+                        <a data-num="tel:920002963" href="javascript:void(0);">
+                            <strong>KSA Toll Free: </strong><span>920002963</span>
+                        </a>
+                        <a data-num="tel:1800818857" href="javascript:void(0);">
+                            <strong>Malaysia: </strong><span>1800818857</span>
+                        </a>
+                        <a data-num="tel:+97142457300" href="javascript:void(0);">
+                            <strong>Worldwide: </strong><span>+97142457300</span>
+                        </a>
+                    </div>
+                </div>
+            </div> <!--/col-sm-7-->
+        </div> <!--/row-->
+    </div> <!--/container-->
+</section> <!--/hme_packages_sec-->
+<!--Why Book With Holidayme Section End-->    <!--TrustPilot Section Start-->
+<section class="trustbox container-fluid">
+    <!--Web-Trustpilot Start-->
+    <div class="container hidden-xs">
+        <h4 class="spinnaker trustbox-title">Thousands of Travellers Trust Holidayme</h4>
+        <div class="trustpilot-widget carousel-wrap desicrptiontext" data-locale="en-US" data-template-id="53aa8912dec7e10d38f59f36" data-businessunit-id="54f6ebc90000ff00057dd23f" data-style-height="130px" data-style-width="100%" data-theme="light" data-stars="5"></div> <!--/trustpilot-widget-->
+    </div> <!--/container-->
+    <!--Web-Trustpilot End-->
+    <!--Mobile-Trustpilot Start-->
+    <div class="trustpilot-widget visible-xs" data-locale="en-GB" data-template-id="5613c9cde69ddc09340c6beb" data-businessunit-id="54f6ebc90000ff00057dd23f" data-style-height="100px" data-style-width="100%" data-theme="light">
+        <a href="https://uk.trustpilot.com/review/holidayme.com/" target="_blank">Trustpilot</a>
+    </div> <!--/trustpilot-widget-->
+    <!--Mobile-Trustpilot End-->
+</section> <!--/trustbox-->
+<!--TrustPilot Section End-->
+
+</section>
+
+<link href="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/css/swiper.min.css?v=201911271615" rel="stylesheet" />
+<link href="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/css/book_holidayme.min.css?v=201911271615" rel="stylesheet" />
+<link href="https://d1mngrp21dynk6.cloudfront.net/home/css/home.min.css?v=201911271615" rel="stylesheet" />
+
+<script src="https://d1mngrp21dynk6.cloudfront.net/holidayme/common/js/swiper.min.js?v=201911271615"></script>
+
+    <script type="text/javascript" src="https://d1mngrp21dynk6.cloudfront.net/home/js/home.min.js?v=201911271615">
+</environment>
+<environment include="development">
+    <script src="/js/home.min.js?v=201911271615"></script>
+
+    <!--Footer-->
+    <footer class="footer-wrap hidden-xs hidden-sm"></footer>
+    <!--Footer-->
+    <div class="scroll-to-top"></div>
+    <input id="LanguageCode" name="LanguageCode" type="hidden" value="en" />
+    <input id="IsMobileApp" name="IsMobileApp" type="hidden" value="" />
+    <input id="AjaxBaseURL" name="AjaxBaseURL" type="hidden" value="https://www.holidayme.com/home/en-ww/" />
+    <input id="DestinationName" name="DestinationName" type="hidden" value="" />
+    <input id="DestinationId" name="DestinationId" type="hidden" value="" />
+    <input id="RegionType" name="RegionType" type="hidden" value="" />
+    <input id="HolidayUrl" name="HolidayUrl" type="hidden" value="https://www.holidayme.com/holiday/en-ww/" />
+    
+    <script async type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"></script>
+</body>
+</html>
