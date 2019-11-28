@@ -4,7 +4,7 @@
   <groupId>net.systemshub</groupId>
   <artifactId>redbus</artifactId>
   <packaging>war</packaging>
-  <version>/version>
+  <version></version>
   <name>test</name>
   <url>http://maven.apache.org</url>
   <dependencies>
