@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.systemshub</groupId>
-  <artifactId>mavenproject</artifactId>
+  <artifactId>makemytrip</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
   <name>test</name>
@@ -23,7 +23,7 @@
  
   </plugin>
   </plugins>
-  <finalName>redbus</finalName>
+  
   </build>
 
 </project>
